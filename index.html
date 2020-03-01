@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link  rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<div class="snow-blocks">
+        <div class="snow1"></div>
+        <div class="snow2"></div>
+    </div>
+	<input id="k" type="text" name="bodya" value="0">
+	<table>
+		<caption></caption>
+		<tr>
+			<td><button class="button" onclick="addDigit(7)">7</button></td>
+			<td><button class="button" onclick="addDigit(8)">8</button></td>
+			<td><button class="button" onclick="addDigit(9)">9</button></td>
+			<td><button onclick="operation('/')" class="button">/</button></td>
+		</tr>
+		<tr>
+			<td><button class="button" onclick="addDigit(4)">4</button></td>
+			<td><button class="button" onclick="addDigit(5)">5</button></td>
+			<td><button class="button" onclick="addDigit(6)">6</button></td>
+			<td><button onclick="operation('*')"  class="button">*</button></td>
+		</tr>
+		<tr>
+			<td><button class="button" onclick="addDigit(1)">1</button></td>
+			<td><button class="button" onclick="addDigit(2)">2</button></td>
+			<td><button class="button" onclick="addDigit(3)">3</button></td>
+			<td><button onclick="operation('+')"  class="button">+</button></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button id="a" onclick="addDigit(0)">0</button></td>
+			<td><button class="button" onclick="operation('c')">c</button></td>
+			<td><button onclick="operation('-')"  class="button">-</button></td>
+		</tr>
+		<tr>
+			<td colspan="4" ><button id="b" onclick="result()">=</button></td>
+		</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

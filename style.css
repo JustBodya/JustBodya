@@ -1,0 +1,19 @@
+
+button{
+	width: 100px;
+	height: 80px;
+	background-color: lightblue;
+	font-size: 40pt;
+}
+#b{
+	width: 415px;
+}
+#a{
+	width: 205px;
+}
+input{
+	width: 412px;
+	height: 80px;
+	font-size: 40pt;
+	text-align: right;
+}
